@@ -1,0 +1,9 @@
+#btn_z {
+    background-color: #f0f8ff !important;
+    border-color: darkgrey;
+    color: black;
+    max-width: 170px;
+}
+#btn_z:hover{
+    border-color: black;
+}

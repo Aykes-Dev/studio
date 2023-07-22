@@ -2,7 +2,6 @@
 import Cards from './component/card';
 import Carousels from "./component/carousel";
 import Footer from './component/footer';
-import FreeBlank from './component/freeblank';
 import Info from './component/info';
 import NaviBar from "./component/navibar";
 import Price from './component/price';

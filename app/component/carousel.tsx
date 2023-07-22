@@ -10,7 +10,7 @@ function Carousels() {
         <Carousel.Item style={{ maxHeight: "35rem" }}>
           <img className="d-block w-100" src="images/1.jpg" alt="First slide" />
           <Carousel.Caption>
-            <h3>Пертяжка сидений</h3>
+            <h3>Перетяжка сидений</h3>
             <p>Такое комфортное сиденье Вам больше нигде не сделают.</p>
           </Carousel.Caption>
         </Carousel.Item>
