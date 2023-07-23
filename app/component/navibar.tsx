@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+'use client';
 import { Container, Navbar, Nav, Button } from "react-bootstrap";
 import Nav_btn_modal from "./nav_btn_modal";
 
