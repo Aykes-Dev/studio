@@ -6,7 +6,7 @@ import Footer from './component/footer';
 import Price from './component/price';
 
 async function getInfo() {
-  const info =  await fetch("http://localhost:8000/api/service_price/")
+  const info =  await fetch("http://127.0.0.1:8000/api/service_price/")
   return info.json()
 }
 
