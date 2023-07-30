@@ -6,11 +6,13 @@ import Footer from './component/footer';
 import Price from './component/price';
 
 async function getInfo() {
-  const info =  await fetch("http://127.0.0.1:8000/api/service_price/")
+  'use server'
+  const info =  await fetch("http://127.0.0.1:8000/api/service_price/", { cache: 'no-store' })
   return info.json()
 }
 
 export default async function Home() {
+  'use server'
   const info = await getInfo()
   return (
     <>

@@ -1,7 +1,9 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-    // ... rest of the configuration.
-    output: 'standalone',
-}
+  // ... rest of the configuration.
+  output: "standalone",
+  experimental: {
+    serverActions: true,
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
