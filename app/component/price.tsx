@@ -13,7 +13,7 @@ function Price(props: any) {
         <Table style={{ opacity: 1 }}>
           <tbody>
             {props.prices?.map((price: any) => (
-              <tr>
+              <tr key={price.id}>
                 <td colSpan={3}>{price.title}</td>
                 <td className="text-end">{price.ot && "от "}{price.price}</td>
               </tr>
